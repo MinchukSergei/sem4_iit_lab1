@@ -1,0 +1,51 @@
+/primal\
+	/hdr\
+		/bold\
+			/italic\
+				Hello
+				/bl\
+					For more
+				\bl/
+				World!
+			\italic/
+		\bold/
+	\hdr/
+	/bl\
+		/bold\
+			/cntr\
+				Choose your destiny
+			\cntr/
+		\bold/
+	\bl/
+	/lst\
+		/litem\
+			Sub-zero
+		\litem/
+		/litem\
+			Scorpion
+		\litem/
+		/litem\
+			Rayden
+		\litem/
+		/litem\
+			Kitana
+		\litem/
+	\lst/
+	/cntr\
+		/bl\
+			For more
+		\bl/
+		/centerlined\
+			information
+		\centerlined/
+		/underlined\
+			POWER
+		\underlined/
+	\cntr/
+	/link\
+		Mortal Kombat | https:/slash\\slash//slash\\slash/ru.wikipedia.org/slash\\slash/wiki/slash\\slash/Mortal_Kombat
+	\link/
+	/davinchiobject\
+		https:/slash\\slash//slash\\slash/www.digiseller.ru/slash\\slash/preview/slash\\slash/786325/slash\\slash/p1_2488675_8f9467f6.jpg
+	\davinchiobject/
+\primal/

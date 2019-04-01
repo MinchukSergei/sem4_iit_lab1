@@ -1,0 +1,15 @@
+/primal\
+/hdr\
+/bold\
+/italic\
+/lst\
+/litem\
+/link\text|link
+/davinchiobject\
+/cntr\
+/bl\
+/centerlined\
+/underlined\
+
+/slash\
+/backslash\
