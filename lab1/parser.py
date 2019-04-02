@@ -32,7 +32,6 @@ class Parser:
             value = self.parse_value()
             if value:
                 node = Node()
-                # node.value = value.replace('\t', ' ').strip()
                 node.value = value
                 parent_node.children.append(node)
 

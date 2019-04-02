@@ -5,11 +5,14 @@
 /lst\
 /litem\
 /link\text|link
-/davinchiobject\
-/cntr\
+/dvnchobj\
+/quote\
 /bl\
 /centerlined\
 /underlined\
 
-/slash\
-/backslash\
+{vline} |
+{sl}    /
+{bsl}   \
+{cbr}   {
+{bcbr}  }

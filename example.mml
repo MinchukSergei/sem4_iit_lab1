@@ -9,12 +9,23 @@
 				World!
 			\italic/
 		\bold/
+		/bold\
+			/italic\
+				Hello World!
+			\italic/
+		\bold/
 	\hdr/
+	/link\
+		Mortal Kombat | https:{sl}{sl}ru.wikipedia.org{sl}wiki{sl}Mortal_Kombat
+	\link/
+	/link\
+		Mortal Kombat 2 | https:{sl}{sl}www.tutorialspoint.com{sl}python{sl}string_upper.htm
+	\link/
 	/bl\
 		/bold\
-			/cntr\
+			/quote\
 				Choose your destiny
-			\cntr/
+			\quote/
 		\bold/
 	\bl/
 	/lst\
@@ -31,9 +42,9 @@
 			Kitana
 		\litem/
 	\lst/
-	/cntr\
+	/quote\
 		/bl\
-			For more
+			For more {vline}
 		\bl/
 		/centerlined\
 			information
@@ -41,11 +52,8 @@
 		/underlined\
 			POWER
 		\underlined/
-	\cntr/
-	/link\
-		Mortal Kombat | https:/slash\\slash//slash\\slash/ru.wikipedia.org/slash\\slash/wiki/slash\\slash/Mortal_Kombat
-	\link/
-	/davinchiobject\
-		https:/slash\\slash//slash\\slash/www.digiseller.ru/slash\\slash/preview/slash\\slash/786325/slash\\slash/p1_2488675_8f9467f6.jpg
-	\davinchiobject/
+	\quote/
+	/dvnchobj\
+		https:{sl}{sl}www.digiseller.ru{sl}preview{sl}786325{sl}p1_2488675_8f9467f6.jpg
+	\dvnchobj/
 \primal/
