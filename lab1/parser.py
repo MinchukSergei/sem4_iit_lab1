@@ -2,14 +2,15 @@ from lab1.node import Node
 
 
 class Parser:
-    def __init__(self, path):
-        self.path = path
+    def reset(self):
         self.index = 0
         self.root = None
         self.content = None
 
-    def parse(self):
-        with open(self.path) as f:
+    def parse(self, path):
+        self.reset()
+
+        with open(path) as f:
             content = ' '.join(f.read().splitlines())
             self.content = ' '.join(content.split())
 
