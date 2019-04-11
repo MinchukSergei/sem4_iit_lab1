@@ -18,8 +18,7 @@ class MMLGraph:
 
         parser = Parser()
         for p in pages:
-            parser.parse(p)
-            parsed_mml[p.name] = parser.root
+            parsed_mml[p.name] = parser.parse(p)
 
         self.build_graph(parsed_mml)
 

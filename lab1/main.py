@@ -9,7 +9,7 @@ from lab1.path_finder import PathFinder
 
 
 def main():
-    # mml_to_html()
+    mml_to_html()
     find_shortest_paths()
 
 
@@ -25,27 +25,21 @@ def find_shortest_paths():
     for i in paths:
         for j in paths:
             if paths[i][j]:
-                path = list(paths[i][j])
-            else:
-                path = []
-            print(f'Path from {i} to {j} = {path}')
-
-    pass
+                print(f'Path from {i} to {j} = {list(paths[i][j])}')
 
 
 def mml_to_html():
-    example_path = Path('../example.mml')
+    example_path = Path('../data_mapping/example.mml')
     parser = Parser()
-    parser.parse(example_path)
+    mml = parser.parse(example_path)
 
-    mml = parser.root
     html_converter = HTMLConverter(mml)
-    example_html_path = Path('../example.html')
+    example_html_path = Path('../data_mapping/example.html')
 
     with open(example_html_path, mode='w') as f:
         html_converter.convert(f)
 
-    html_path = 'file://' + str(Path('../example.html').absolute())
+    html_path = 'file://' + str(example_html_path.absolute())
     if 'CHROME_PATH' in os.environ:
         chrome_path = os.environ['CHROME_PATH'].replace(os.sep, '/')
         chrome_path = f'{chrome_path} %s'

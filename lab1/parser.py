@@ -10,11 +10,13 @@ class Parser:
     def parse(self, path):
         self.reset()
 
-        with open(path) as f:
+        with open(path, encoding='utf8') as f:
             content = ' '.join(f.read().splitlines())
             self.content = ' '.join(content.split())
 
         self.parse_tree()
+
+        return self.root
 
     def parse_tree(self, parent_node=None):
         while True:
